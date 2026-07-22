@@ -1,4 +1,5 @@
 using System;
+using System.Text.Json.Serialization;
 
 namespace BaseSchedule.Models
 {
@@ -10,9 +11,13 @@ namespace BaseSchedule.Models
         public bool IsPaid { get; set; }
         
         public int StudentId { get; set; }
-        public Student Student { get; set; } = null!;
+        
+        [JsonIgnore]
+        public Student? Student { get; set; }
         
         public int? ScheduleEventId { get; set; }
+        
+        [JsonIgnore]
         public ScheduleEvent? ScheduleEvent { get; set; }
     }
 }

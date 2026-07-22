@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaseSchedule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c900a11e58d106c10af9af693731570bfa15a903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fefa88a1b401bcfc11fc24c370572e72440dbd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaseSchedule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaseSchedule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
